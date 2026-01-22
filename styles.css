@@ -82,6 +82,12 @@ footer {
     margin-top: auto;
 }
 
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* Estilos específicos para tarjetas de doctores */
 .doctor-grid {
     display: grid;
