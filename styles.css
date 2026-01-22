@@ -8,16 +8,16 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f0f8ff; /* AliceBlue, tono suave */
+    background-color: #f0f8ff;
     color: #333;
 }
 
 /* Encabezado y Navegación */
 header {
-    background-color: #007bff; /* Azul institucional */
+    background-color: #007bff;
     color: white;
     padding: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .container {
@@ -62,7 +62,7 @@ section {
     background: white;
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     margin-bottom: 2rem;
 }
 
@@ -100,7 +100,7 @@ footer {
 
 .doctor-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .doctor-card h3 {
