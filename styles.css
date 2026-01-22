@@ -206,4 +206,83 @@ footer {
 
 
 
-
+/*contacto*/
+.contacto-container {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+ 
+.contacto-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+ 
+.contacto-descripcion {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+ 
+.contacto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+ 
+.contacto-info {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+}
+ 
+.contacto-info h2 {
+    margin-bottom: 15px;
+    color: #007bff;
+}
+ 
+.contacto-info p {
+    margin-bottom: 10px;
+    color: #333;
+}
+ 
+.contacto-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+ 
+.contacto-form h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+ 
+.contacto-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+ 
+.contacto-form input,
+.contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+ 
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+ 
+.contacto-form .btn {
+    width: 100%;
+}
